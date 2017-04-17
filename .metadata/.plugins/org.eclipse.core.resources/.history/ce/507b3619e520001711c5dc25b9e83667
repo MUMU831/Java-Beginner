@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class FirstFunction {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int radius;
+		double area;
+		final double pi=3.142;
+		
+		Scanner readInput = new Scanner(System.in);
+		
+		System.out.print("Enter the radious: ");
+		
+		radius = readInput.nextInt();
+		
+		area=pi*radius*radius;
+		System.out.print("The area is: ");
+		System.out.print(area);
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class HW2 {
+			
+	public static void main(String[] args) {
+			int radius;
+			double area;
+			final double pi;
+			
+			Scanner readInput = new Scanner(System.in);
+			//extra line feed
+			System.out .println();
+			System.out .print("Enter the radius: ");
+			radius = readInput.nextInt();
+			System.out .print("Enter the PI: ");
+			pi = readInput.nextInt();
+			
+			area= pi * radius * radius;
+			System.out .print("The area is: ");
+			System.out .println(area);
+	}
+}
+
+
+
